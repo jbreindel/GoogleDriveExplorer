@@ -11,7 +11,7 @@
  *
  ******************************************************************************************/
 
-var CLIENT_ID = '773428593820-71hmoib4iam51crbu29f8a6dgdiils95.apps.googleusercontent.com';
+var CLIENT_ID = '{your-client-id}';
 var SCOPES = 'https://www.googleapis.com/auth/drive https://www.googleapis.com/auth/drive.file https://www.googleapis.com/auth/drive.appdata https://www.googleapis.com/auth/drive.apps.readonly https://www.googleapis.com/auth/drive.metadata.readonly https://www.googleapis.com/auth/drive.readonly';
 // default size of the list
 var LIST_SIZE = 100;
