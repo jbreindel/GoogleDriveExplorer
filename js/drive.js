@@ -189,7 +189,7 @@ function buildRow(table, fileJson) {
     var modifiedCell = document.createElement('td');
     // link
     var fileLink = document.createElement('a');
-    fileLink.href = "http://webservices.buffalo.edu/workorders/scp/drive.php?" + (fileJson.mimeType == "application/vnd.google-apps.folder" ? "folder=" : "file=") + fileJson.id;
+    fileLink.href = "/drive.php?" + (fileJson.mimeType == "application/vnd.google-apps.folder" ? "folder=" : "file=") + fileJson.id;
     fileLink.appendChild(document.createTextNode(fileJson.title));
     // build cells
     iconCell.align = 'center';
